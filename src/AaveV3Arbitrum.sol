@@ -31,8 +31,8 @@ library AaveV3Arbitrum {
   IACLManager internal constant ACL_MANAGER =
     IACLManager(0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B);
 
-  // https://arbiscan.io/address/0x7d9103572bE58FfE99dc390E8246f02dcAe6f611
-  address internal constant ACL_ADMIN = 0x7d9103572bE58FfE99dc390E8246f02dcAe6f611;
+  // https://arbiscan.io/address/0xFF1137243698CaA18EE364Cc966CF0e02A4e6327
+  address internal constant ACL_ADMIN = 0xFF1137243698CaA18EE364Cc966CF0e02A4e6327;
 
   // https://arbiscan.io/address/0x053D55f9B5AF8694c503EB288a1B7E552f590710
   ICollector internal constant COLLECTOR = ICollector(0x053D55f9B5AF8694c503EB288a1B7E552f590710);
@@ -48,9 +48,9 @@ library AaveV3Arbitrum {
   address internal constant DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_2 =
     0x5E76E98E0963EcDC6A065d1435F84065b7523f39;
 
-  // https://arbiscan.io/address/0x0c2C95b24529664fE55D4437D7A31175CFE6c4f7
-  address internal constant DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_2 =
-    0x0c2C95b24529664fE55D4437D7A31175CFE6c4f7;
+  // https://arbiscan.io/address/0xCB7113D3d572613BbFCeCf80d1341cFFE2A92C00
+  address internal constant DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_3 =
+    0xCB7113D3d572613BbFCeCf80d1341cFFE2A92C00;
 
   // https://arbiscan.io/address/0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73
   address internal constant EMISSION_MANAGER = 0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73;
@@ -201,9 +201,9 @@ library AaveV3ArbitrumAssets {
   // https://arbiscan.io/address/0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612
   address internal constant WETH_ORACLE = 0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612;
 
-  // https://arbiscan.io/address/0x27eFE5db315b71753b2a38ED3d5dd7E9362ba93F
+  // https://arbiscan.io/address/0x9a158802cD924747EF336cA3F9DE3bdb60Cf43D3
   address internal constant WETH_INTEREST_RATE_STRATEGY =
-    0x27eFE5db315b71753b2a38ED3d5dd7E9362ba93F;
+    0x9a158802cD924747EF336cA3F9DE3bdb60Cf43D3;
 
   // https://arbiscan.io/address/0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9
   address internal constant USDT_UNDERLYING = 0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9;

@@ -31,8 +31,8 @@ library AaveV3Optimism {
   IACLManager internal constant ACL_MANAGER =
     IACLManager(0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B);
 
-  // https://explorer.optimism.io/address/0x7d9103572bE58FfE99dc390E8246f02dcAe6f611
-  address internal constant ACL_ADMIN = 0x7d9103572bE58FfE99dc390E8246f02dcAe6f611;
+  // https://explorer.optimism.io/address/0x746c675dAB49Bcd5BB9Dc85161f2d7Eb435009bf
+  address internal constant ACL_ADMIN = 0x746c675dAB49Bcd5BB9Dc85161f2d7Eb435009bf;
 
   // https://explorer.optimism.io/address/0xB2289E329D2F85F1eD31Adbb30eA345278F21bcf
   ICollector internal constant COLLECTOR = ICollector(0xB2289E329D2F85F1eD31Adbb30eA345278F21bcf);
@@ -48,9 +48,9 @@ library AaveV3Optimism {
   address internal constant DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_2 =
     0x04a8D477eE202aDCE1682F5902e1160455205b12;
 
-  // https://explorer.optimism.io/address/0x6b4E260b765B3cA1514e618C0215A6B7839fF93e
-  address internal constant DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_2 =
-    0x6b4E260b765B3cA1514e618C0215A6B7839fF93e;
+  // https://explorer.optimism.io/address/0x69713dA5fDfacf77E80C31F9B928Ec0Fc3716384
+  address internal constant DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_3 =
+    0x69713dA5fDfacf77E80C31F9B928Ec0Fc3716384;
 
   // https://explorer.optimism.io/address/0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73
   address internal constant EMISSION_MANAGER = 0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73;
@@ -201,9 +201,9 @@ library AaveV3OptimismAssets {
   // https://explorer.optimism.io/address/0x13e3Ee699D1909E989722E753853AE30b17e08c5
   address internal constant WETH_ORACLE = 0x13e3Ee699D1909E989722E753853AE30b17e08c5;
 
-  // https://explorer.optimism.io/address/0xc76EF342898f1AE7E6C4632627Df683FAD8563DD
+  // https://explorer.optimism.io/address/0x5f58C25D17C09c9e1892F45DE6dA45ed973A5326
   address internal constant WETH_INTEREST_RATE_STRATEGY =
-    0xc76EF342898f1AE7E6C4632627Df683FAD8563DD;
+    0x5f58C25D17C09c9e1892F45DE6dA45ed973A5326;
 
   // https://explorer.optimism.io/address/0x94b008aA00579c1307B0EF2c499aD98a8ce58e58
   address internal constant USDT_UNDERLYING = 0x94b008aA00579c1307B0EF2c499aD98a8ce58e58;

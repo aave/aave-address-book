@@ -31,8 +31,8 @@ library AaveV3Avalanche {
   IACLManager internal constant ACL_MANAGER =
     IACLManager(0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B);
 
-  // https://snowtrace.io/address/0xa35b76E4935449E33C56aB24b23fcd3246f13470
-  address internal constant ACL_ADMIN = 0xa35b76E4935449E33C56aB24b23fcd3246f13470;
+  // https://snowtrace.io/address/0x3C06dce358add17aAf230f2234bCCC4afd50d090
+  address internal constant ACL_ADMIN = 0x3C06dce358add17aAf230f2234bCCC4afd50d090;
 
   // https://snowtrace.io/address/0x5ba7fd868c40c16f7aDfAe6CF87121E13FC2F7a0
   ICollector internal constant COLLECTOR = ICollector(0x5ba7fd868c40c16f7aDfAe6CF87121E13FC2F7a0);
@@ -48,9 +48,9 @@ library AaveV3Avalanche {
   address internal constant DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_2 =
     0xa0d9C1E9E48Ca30c8d8C3B5D69FF5dc1f6DFfC24;
 
-  // https://snowtrace.io/address/0x893411580e590D62dDBca8a703d61Cc4A8c7b2b9
-  address internal constant DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_2 =
-    0x893411580e590D62dDBca8a703d61Cc4A8c7b2b9;
+  // https://snowtrace.io/address/0xccf12894957E637Bd69693B12F3ba12b539C2D11
+  address internal constant DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_3 =
+    0xccf12894957E637Bd69693B12F3ba12b539C2D11;
 
   // https://snowtrace.io/address/0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73
   address internal constant EMISSION_MANAGER = 0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73;

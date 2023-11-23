@@ -1,5 +1,5 @@
-import {Hex} from 'viem';
-import {ChainId} from '../generator/chains';
+import { Hex } from 'viem';
+import { ChainId } from '../generator/chains';
 
 interface KnownInterfaces<T extends number | Hex = any> {
   value: T;
@@ -44,6 +44,7 @@ export interface PoolConfig {
     SWAP_COLLATERAL_ADAPTER?: Hex;
     DEBT_SWAP_ADAPTER?: Hex;
     WITHDRAW_SWAP_ADAPTER?: Hex;
+    SAVINGS_DAI_TOKEN_WRAPPER?: Hex;
     POOL_ADDRESSES_PROVIDER_REGISTRY?: Hex;
     LISTING_ENGINE?: Hex;
     MIGRATION_HELPER?: Hex;

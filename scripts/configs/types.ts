@@ -1,5 +1,5 @@
-import { Hex } from 'viem';
-import { ChainId } from '../generator/chains';
+import {Hex} from 'viem';
+import {ChainId} from '../generator/chains';
 
 interface KnownInterfaces<T extends number | Hex = any> {
   value: T;
